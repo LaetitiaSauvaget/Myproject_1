@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(248, 236, 238);
+}
+
+@font-face {
+  font-family: "Adelle Sans Regular";
+  src: url("/fonts/Adelle\ Sans\ Regular.otf");
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(190, 29, 42);
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  margin-bottom: 16px;
+}
+
+img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 100%;
+}
+
+#tronc {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  background-color: rgb(248, 236, 238);
+  min-height: 15vh;
+  font-family: "Adelle Sans Regular";
+  /* display: flex;
+  flex-direction: column; */
+  margin: 40px 24px;
+  align-items: center;
+  width: 33vw;
+}
+
+main {
+  background-image: url(https://static1.squarespace.com/static/568d61352399a30df6251902/5cbdf0d5104c7be0dbc4e24e/5cbdf102eb39315ec969afde/1555951875809/lush.gif?format=2500w);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 70vh;
+  display: flex;
+  flex-direction: row;
+  width: 66vw;
+}
+
+section {
+  background-color: rgb(248, 236, 238, 0.8);
+  margin: 32px 24px;
+  border-radius: 8px;
+  padding: 48px 16px;
+  min-width: 16vw;
+}
+
+a {
+  margin: 16px;
+}
+
+footer {
+  background-color: rgb(190, 29, 42);
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+
+#myQuote {
+  margin: 2vh 5vw;
+  width: 50vw;
+}
